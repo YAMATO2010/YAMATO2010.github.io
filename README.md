@@ -15,7 +15,8 @@ YAMATO2010 が個人で開発したアプリを紹介する GitHub Pages サイ�
 - `index.html`: サイト本体。
 - `style.css`: サイトの見た目を定義するCSS。
 - `script.js`: 年表示とリンクコピー機能のJavaScript。
-- `191845361.jpeg`: SenseMusicClock のアイコン画像。
+- `icon_YAMATO.jpeg`: YAMATO2010 のアイコン画像。
+- `icons/`: アプリごとのアイコン画像。
 - `Screenshots/`: サイト内で使うスクリーンショット画像。
 - `README.md`: このリポジトリの概要。
 
