@@ -1,51 +1,34 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YAMATO2010開発者サイト</title>
-</head>
-<body>
-    <h1>YAMATO2010開発者サイト</h1>
+# YAMATO2010 Developer Site
 
-    <p>個人で開発したアプリを公開しています。</p>
+YAMATO2010 が個人で開発したアプリを紹介する GitHub Pages サイトです。
 
-    <h2>アプリ一覧</h2>
+## 概要
 
-    <h3>SenseMusicClock</h3>
+このサイトでは、公開中のアプリの説明、GitHub リポジトリ、問い合わせ先、プライバシーポリシーへのリンクをまとめています。
 
-    <p>
-        端末内の音楽ファイルを再生するローカル音楽プレーヤーです。
-    </p>
+現在掲載しているアプリ:
 
-    <ul>
-        <li>
-            <a href="https://github.com/YAMATO2010/Sense_Music_Clock">
-                GitHubリポジトリ
-            </a>
-        </li>
+- SenseMusicClock: 端末内の音楽ファイルを再生するローカル音楽プレーヤー
 
-        <li>
-            <a href="https://github.com/YAMATO2010/Sense_Music_Clock/issues">
-                お問い合わせ（GitHub Issues）
-            </a>
-        </li>
+## ファイル構成
 
-        <li>
-            <a href="https://yamato2010.github.io/Sense_Music_Clock/">
-                プライバシーポリシー
-            </a>
-        </li>
-    </ul>
+- `index.html`: サイト本体。
+- `style.css`: サイトの見た目を定義するCSS。
+- `script.js`: 年表示とリンクコピー機能のJavaScript。
+- `191845361.jpeg`: SenseMusicClock のアイコン画像。
+- `Screenshots/`: サイト内で使うスクリーンショット画像。
+- `README.md`: このリポジトリの概要。
 
-    <h2>お問い合わせ</h2>
+## ローカルで確認する方法
 
-    <p>
-        各アプリのGitHub Issuesからお問い合わせください。
+`index.html` をブラウザで開くと確認できます。
 
-        
-    </p>
-    © YAMATO2010
-</body>
-</html>
+```sh
+open index.html
+```
 
+## 公開先
+
+GitHub Pages:
+
+https://yamato2010.github.io/
