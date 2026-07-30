@@ -1,15 +1,24 @@
-# YAMATO2010 開発者サイト
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMATO2010開発者サイト</title>
+</head>
+<body>
+    <h1>YAMATO2010開発者サイト</h1>
 
-個人で開発したアプリを公開しています。
+    <p>個人で開発したアプリを公開しています。</p>
 
-## アプリ一覧
+    <h2>アプリ一覧</h2>
 
-- **SenseMusicClock**（準備中）
 
-## お問い合わせ
+    <h2>お問い合わせ</h2>
 
-各アプリに関するお問い合わせや不具合の報告は、各アプリの **GitHub Issues** よりお願いいたします。
+    <p>
+        各アプリのGitHub Issuesからお問い合わせください。
+    </p>
+    © YAMATO2010
+</body>
+</html>
 
----
-
-© YAMATO2010
