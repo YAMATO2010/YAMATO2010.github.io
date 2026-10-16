@@ -1,111 +1,59 @@
 <!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="YAMATO2010 が個人で開発したアプリを紹介する開発者サイトです。">
-    <title>YAMATO2010 開発者サイト</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="site-header">
-        <nav class="nav" aria-label="メインナビゲーション">
-            <a class="brand" href="#top" aria-label="YAMATO2010 開発者サイトのトップへ">
-                <span class="brand-mark">Y</span>
-                <span>YAMATO2010</span>
-            </a>
-            <div class="nav-links">
-                <a href="#apps">アプリ</a>
-                <a href="#contact">お問い合わせ</a>
-                <a href="https://github.com/YAMATO2010">GitHub</a>
-            </div>
-        </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAMATO2010公式サイト</title>
+    <link rel="stylesheet" href="./common/common.css" />
+    <link rel="icon" href="/icons/icon_YAMATO.jpeg">
+  </head>
+  
+  
+  <body >
+    
+    
+    <div id="common" title="common/common.html" ></div>
+    
+    
+    <script src="./common/common.js" async></script>
+    
 
-    <main id="top">
-        <section class="hero" aria-labelledby="hero-title">
-            <div>
-                <p class="eyebrow">Developer Site</p>
-                <h1 id="hero-title">YAMATO2010 開発者サイト</h1>
-                <p class="lead">
-                    個人で開発したアプリの情報をまとめています。リポジトリ、問い合わせ先、プライバシーポリシーへすぐアクセスできます。
-                </p>
-                <div class="actions">
-                    <a class="button primary" href="#apps">アプリを見る</a>
-                    <a class="button secondary" href="https://github.com/YAMATO2010">GitHubへ</a>
-                </div>
-            </div>
 
-            <div class="showcase icon-showcase" aria-label="YAMATO2010 のアイコン">
-                <img
-                    class="hero-icon"
-                    src="icon_YAMATO.jpeg"
-                    alt="YAMATO2010 のアイコン"
-                >
-            </div>
-        </section>
+    <div class="Contents_Container" id="main_Contents" >
+      <div class="Contents">
+        <p>YAMATO2010公式サイトへようこそ!!</p>
 
-        <section class="section" id="apps" aria-labelledby="apps-title">
-            <div class="section-head">
-                <h2 id="apps-title">アプリ一覧</h2>
-                <p class="section-note">公開中のアプリと関連リンクです。</p>
-            </div>
+        <div class="Profile">
+          <span style="margin-left: 2%">プロフィール</span>
+          <br />
+          <img id="Profile_icon" src="/icons/icon_YAMATO.jpeg" width="50%" />
 
-            <div class="app-grid">
-                <article class="app-card">
-                    <div class="app-top">
-                        <img class="app-icon" src="icons/icon_SenseMusicClock.png" alt="" aria-hidden="true">
-                        <span class="status">公開中</span>
-                    </div>
-                    <div>
-                        <h3>SenseMusicClock</h3>
-                        <p>端末内の音楽ファイルを再生するローカル音楽プレーヤーです。</p>
-                    </div>
-                    <img
-                        class="app-screenshot"
-                        src="Screenshots/Screenshot_20260730_132935.png"
-                        alt="SenseMusicClock の再生画面スクリーンショット"
-                    >
-                    <ul class="link-list">
-                        <li>
-                            <a href="https://github.com/YAMATO2010/Sense_Music_Clock">
-                                <span>GitHub リポジトリ</span>
-                                <span class="arrow" aria-hidden="true">→</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/YAMATO2010/Sense_Music_Clock/issues">
-                                <span>お問い合わせ</span>
-                                <span class="arrow" aria-hidden="true">→</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://yamato2010.github.io/Sense_Music_Clock/">
-                                <span>プライバシーポリシー</span>
-                                <span class="arrow" aria-hidden="true">→</span>
-                            </a>
-                        </li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-
-        <section class="contact" id="contact" aria-labelledby="contact-title">
-            <div>
-                <h2 id="contact-title">お問い合わせ</h2>
-                <p>各アプリの GitHub Issues からお問い合わせください。お問い合わせの際は、個人情報（氏名、住所、電話番号、メールアドレス等）を投稿しないようお願いいたします。</p>
-            </div>
-            
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <span>© <span id="year">2026</span> YAMATO2010</span>
-            <span>Built with GitHub Pages</span>
+          <div id="Profile_info">
+            <h3>名前：YAMATO2010</h3>
+            <ul>
+              <li>主に使う言語：Kotlin</li>
+              <li>主な開発：Androidアプリ開発</li>
+            </ul>
+            <h3>コメント</h3>
+            <p>自分が作りたいものを主に作っています！ゲームとかの娯楽そのものより、その娯楽を動かし、活かすツールを作るほうが好きなタイプです！</p>
+          </div>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
-</body>
+      </div>
+      <div id="Recently_Works" class="Contents">
+        <h2>最近の作品</h2>
+        <div class="worksContents">
+          <h2>Sense Music Clock</h2>
+          <img src="icons/icon_SenseMusicClock.png" width="50%"/>
+          <p>シャッフル再生に強いローカル音楽プレイヤーアプリ。時計機能付きで、背景を自由に選ぶことができます。</p>
+          <img src="Screenshots/Screenshot_SMC02.png" alt="SMC＿スクショ" width="100%">
+          <a href="/works/smc.html">詳しくはこちら</a>
+
+
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
 </html>

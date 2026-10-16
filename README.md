@@ -1,35 +1,25 @@
-# YAMATO2010 Developer Site
+# YAMATO2010 公式サイト
 
-YAMATO2010 が個人で開発したアプリを紹介する GitHub Pages サイトです。
+YAMATO2010 のプロフィールと、個人で開発したアプリ・Webサイトを紹介するポートフォリオサイトです。GitHub Pages で公開しています。
 
-## 概要
+**公開サイト：<https://yamato2010.github.io/>**
 
-このサイトでは、公開中のアプリの説明、GitHub リポジトリ、問い合わせ先、プライバシーポリシーへのリンクをまとめています。
+## 掲載内容
 
-現在掲載しているアプリ:
+- プロフィール、主な使用言語・開発分野
+- 制作物の紹介
+- GitHub・X・Qiita のプロフィール、執筆記事へのリンク
 
-- SenseMusicClock: 端末内の音楽ファイルを再生するローカル音楽プレーヤー
+## 使用技術
+
+HTML・CSS・JavaScript
 
 ## ファイル構成
 
-- `index.html`: サイト本体。
-- `style.css`: サイトの見た目を定義するCSS。
-- `script.js`: 年表示とリンクコピー機能のJavaScript。
-- `icon_YAMATO.jpeg`: YAMATO2010 のアイコン画像。
-- `icons/`: アプリごとのアイコン画像。
-- `Screenshots/`: サイト内で使うスクリーンショット画像。
-- `README.md`: このリポジトリの概要。
-
-## ローカルで確認する方法
-
-`index.html` をブラウザで開くと確認できます。
-
-```sh
-open index.html
-```
-
-## 公開先
-
-GitHub Pages:
-
-https://yamato2010.github.io/
+| ファイル・ディレクトリ | 内容 |
+| --- | --- |
+| `index.html` | トップページ |
+| `common/` | 共通のHTML・スタイル・スクリプト |
+| `works/` | 制作物の紹介ページ |
+| `icons/` | プロフィール・作品のアイコン |
+| `Screenshots/` | スクリーンショット画像 |
